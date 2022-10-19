@@ -2,3 +2,11 @@ body{
     background-color: rebeccapurple;
     text-align: center;
 }
+.backImg{
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://picsum.photos/800/800");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left top;
+}
