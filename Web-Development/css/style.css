@@ -10,3 +10,17 @@ body{
     background-attachment: fixed;
     background-position: left top;
 }
+#FontCss{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 500;
+}
+#TextCss{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: tomato;
+    letter-spacing: 2em;
+    word-spacing: 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
