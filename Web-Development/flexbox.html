@@ -5,10 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FlexBox</title>
+    <style>
+        #flexBox{
+            background-color: indianred;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+        }
+        .FlexItem{
+            background-color: lightblue;
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid black;
+            text-align: center;
+            font-size: 30px;
+            width: 100px;
+            
+        }
+    </style>
 </head>
 <body>
     <div id="flexBox">
-        
+        <div class="FlexItem">One</div>
+        <div class="FlexItem">Two</div>
+        <div class="FlexItem">Three</div>
+        <div class="FlexItem">Four</div>
+        <div class="FlexItem">5</div>
+        <div class="FlexItem">6</div>
+        <div class="FlexItem">7</div>
+        <div class="FlexItem">8</div>
     </div>
 </body>
 </html>
